@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   scanner:
-    container_name: scanner
+    container_name: fujitsu_scanner
     build: .
     restart: "always"
     privileged: true
